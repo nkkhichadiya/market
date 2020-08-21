@@ -1,0 +1,257 @@
+@media (min-width:768px) and (max-width:992px){
+    .navbar{
+        padding: 6px 25px;
+    }
+    #case-study-image {
+        padding-right: 0;
+    }
+    #case-study-image .mobile-wrap::after {
+    content: '';
+    width: 150%;
+    height: 45%;
+    position: absolute;
+    background: #f04c23;
+    bottom: -1px;
+    left: -100px;
+    display: block;
+    z-index: -1;
+    }
+    #case-study-image .card .mobile-wrap{
+        z-index: 50;
+        margin: 0 100px;
+    }
+    .card-mobile-view {
+        background: #f04c23;
+        width: 102%;
+        padding: 25px 100px;
+        display: block;
+        border: 2px solid #f04c23;
+        margin: -5px;
+    }
+    .card-mobile-view p{
+        background: #f04c23;
+    margin: 0px 0 -1px;
+    color: white!important;
+    line-height: 2.14;
+    letter-spacing: 2px;
+    font-size: 18px;
+    }
+    #case-study-image .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 10px;
+        background: #f04c23;
+        margin-top: -1px;
+        padding: 40px;
+        width: 100%;
+    }
+    .card-padding{
+        padding-top: 50px;
+    }
+    #information{
+        padding: 50px 0;
+    }
+    #services{
+        padding: 50px 0;
+    }
+    #services .container-fluid{
+        padding: 0 70px;
+    }
+    #client{
+        padding: 50px 0;
+    }
+    #client .container-fluid{
+        padding: 0 100px;
+    }
+    #contact{
+        padding: 50px 0 80px;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    h3.text{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h2.text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .navbar{
+        padding: 6px 25px;
+    }
+    #first-page{
+        margin: 100px 0!important;
+    }
+    .outline-text.text-gray h1 {
+        font-size: 100px;
+    }
+    #first-page .pt-5 {
+        padding: 60px 0!important;
+    }
+    #case-study-image {
+        padding-right: 0;
+    }
+    #case-study-image .mobile-wrap::after {
+    content: '';
+    width: 150%;
+    height: 45%;
+    position: absolute;
+    background: #f04c23;
+    bottom: -1px;
+    left: -50px;
+    display: block;
+    z-index: -1;
+    }
+    #case-study-image .card .mobile-wrap{
+        z-index: 50;
+        margin: 0 30px;
+    }
+    .card-mobile-view {
+        background: #f04c23;
+        width: 102%;
+        padding: 25px 30px;
+        display: block;
+        border: 2px solid #f04c23;
+        margin: -5px;
+    }
+    .card-mobile-view p{
+        background: #f04c23;
+    margin: 0px 0 -1px;
+    color: white!important;
+    line-height: 2.14;
+    letter-spacing: 2px;
+    font-size: 18px;
+    }
+    #case-study-image .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 10px;
+        background: #f04c23;
+        margin-top: -1px;
+        padding: 40px;
+        width: 100%;
+    }
+    .card-padding{
+        padding-top: 50px;
+    }
+    #information{
+        padding: 50px 0;
+    }
+    #information .card{
+        width: 70%;
+        margin: 20px auto;
+    }
+    #services{
+        padding: 50px 0;
+    }
+    #services .container-fluid{
+        padding: 0 50px!important;
+    }
+    #client{
+        padding: 50px 0;
+    }
+    #client .container-fluid{
+        padding: 0 100px;
+    }
+    #contact{
+        padding: 50px 0 80px;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    footer .container-fluid {
+        padding: 0 15px!important;
+    }
+}
+@media (max-width:576px){
+    h3.text{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h2.text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .navbar{
+        padding: 6px 25px;
+    }
+    #first-page{
+        margin: 100px 0!important;
+    }
+    .outline-text.text-gray h1 {
+        font-size: 100px;
+    }
+    #first-page .pt-5 {
+        padding: 60px 0!important;
+    }
+    #case-study-image {
+        padding-right: 0;
+    }
+    #case-study-image .mobile-wrap::after {
+    content: '';
+    width: 150%;
+    height: 45%;
+    position: absolute;
+    background: #f04c23;
+    bottom: -1px;
+    left: -50px;
+    display: block;
+    z-index: -1;
+    }
+    #case-study-image .card .mobile-wrap{
+        z-index: 50;
+        margin: 0 30px;
+    }
+    .card-mobile-view {
+        background: #f04c23;
+        width: 103%;
+        padding: 25px 30px;
+        display: block;
+        border: 2px solid #f04c23;
+        margin: -5px;
+    }
+    .card-mobile-view p{
+        background: #f04c23;
+        margin: 0px 0 -1px;
+        color: white!important;
+        line-height: 1.6;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    #case-study-image .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 10px;
+        background: #f04c23;
+        margin-top: -1px;
+        padding: 40px;
+        width: 100%;
+    }
+    .card-padding{
+        padding-top: 50px;
+    }
+    #information{
+        padding: 50px 0;
+    }
+    #information .card{
+        width: 70%;
+        margin: 20px auto;
+    }
+    #services{
+        padding: 50px 0;
+    }
+    #services .container-fluid{
+        padding: 0 30px!important;
+    }
+    #client{
+        padding: 50px 0;
+    }
+    #client .container-fluid{
+        padding: 0 30px;
+    }
+    #contact{
+        padding: 50px 0 80px;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    footer .container-fluid {
+        padding: 0 15px!important;
+    }
+}

@@ -1,0 +1,274 @@
+.height{
+    height: 100%;
+}
+
+h3.text{
+    color: rgba(0,0,0,0.7);
+    font-weight: 700;
+    font-size: calc(30px + (36 - 30) * ((100vw - 1300px)/ (1680 - 1300)));
+}
+h6.text{
+    color: rgba(0,0,0,0.7);
+    font-weight: 700;
+}
+h3.text strong{
+    color: #f04c23!important;
+}
+h2.text{
+    color: rgba(0,0,0,0.7);
+    font-size: calc(48px + (65 - 48) * ((100vw - 1300px)/ (1680 - 1300)));
+}
+h2.text strong{
+    color: #f04c23!important;
+}
+.svg-dot svg{
+    height: 10px;
+    transition: ease 0.8s;
+    width: 10px;
+}
+.svg-dot svg circle{
+    fill: #008c99;
+}
+.button a p.text{
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    transition: ease 0.8s;
+    line-height: 2.14;
+}
+.button a:hover p.text{
+    color: #008c99;
+    transition: ease 0.8s;
+    transform: translateX(10px);
+}
+.button a:hover .svg-dot svg {
+    transform: translateY(0) scale(2);
+    transition: ease 0.8s;
+}
+#first-page{
+    margin-top: 220px!important;
+}
+.scroll-down{
+    height: 105px;
+    max-width: 100%;
+    position: absolute;
+}
+.scroll-down .scroll-ball {
+    opacity: 0;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background: #f04c23;
+    border-radius: 50%;
+    top: 0;
+    left: 20px;
+    transform: translateY(0);
+    transition: ease 1s;
+    -webkit-animation: drop-ball ease-in infinite 1.75s;
+    animation: drop-ball ease-in infinite 1.75s;
+}
+@keyframes drop-ball{
+    from{
+        top: 0px;
+        opacity: 1;
+    }
+    to{
+        top: 105px;
+        opacity: 0;
+    }
+}
+.arrow-down{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+.arrow-down svg{
+    height: 40px;
+    width: 50px;
+}
+.scroll-outer{
+    width: 100%;
+    top: 0px;
+    left: 0;
+    pointer-events: none;
+}
+.outline-text.text-gray h1{
+    font-size: 180px;
+}
+#first-page .my-5{
+    margin: 150px 0 90px!important;
+}
+#first-page .pt-5{
+    padding: 90px 0!important;
+}
+.scroller {
+    width: 200vw;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: marquee 20s linear infinite;
+    animation: marquee 20s linear infinite;
+}
+@keyframes marquee{
+    from{
+        transform: translateX(110%);
+    }
+    to{
+        transform: translateX(-110%);
+    }
+}
+#case-study-image {
+    padding: 0 110px 0 0;
+}
+#case-study-image .height{
+    height: 140vh;
+}
+#case-study-image .container-fluid .row .col.p-5{
+    padding-top: 66px;
+}
+#case-study-image .col .info{
+    right: 0px;
+}
+.svg-quote svg path{
+    fill: #fff;
+}
+.info-inner h5{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.person-info .person-image img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.person-info .person-detail a:hover{
+    text-decoration-line: underline;
+}
+#case-study-image .info.active-0, #case-study-image .info.active-1,#case-study-image .info.active-2{
+    opacity: 0;
+}
+.arrows{
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: #f04c23;
+}
+.arrows .left-arrow svg,.arrows .right-arrow svg{
+    height: 25px;
+    width: 25px;
+    transition: ease 0.6s;
+    cursor: pointer;
+}
+.arrows .left-arrow svg path,.arrows .right-arrow svg path{
+    transition: ease 0.6s;
+    fill: #fff;
+}
+.arrows .left-arrow:hover, .arrows .right-arrow:hover{
+    transition: ease 0.6s;
+    background: rgba(255,255,255);
+}
+.arrows .left-arrow:hover svg path, .arrows .right-arrow:hover svg path{
+    fill: #f04c23;
+    transition: ease 0.6s;
+}
+.card-portion{
+    top: 0px;
+    left: 0px;
+}
+.mobile-wrap img {
+    max-height: 80vh;
+}
+.width{
+    max-width: 45%;
+}
+.info-wrapper{
+    right: 0;
+}
+.active-info{
+    opacity: 1!important;
+    transition: 1s ease-in-out;
+}
+#information{
+    padding:150px 0;
+}
+.card{
+    box-shadow:0 5px 20px 0 rgba(39,55,65,.15);
+    background: #ffffff;
+    min-height: 300px;
+    position: relative;
+}
+.card .card-image img{
+    max-width: 138px;
+    max-height: 90px;
+    display: block;
+    margin: 30px auto;
+}
+.card .award-text {
+    padding: 0 30px 32px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.card .award-text p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.award-type{
+    background: #c0c9d3;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.award-type p{
+    font-weight: 700;
+    color: #fff;
+}
+#client img.lazy-load{
+    max-width: 100%;
+}
+#services{
+    padding-top:150px ;
+    background: #f04c23;
+}
+#services h6.text, #services h3.text, #services p.text{
+    color: #fff;
+}
+span.outline-text{
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    transition: ease-in-out 0.6s;
+}
+span.outline-text:hover{
+    color: #fff;
+    transition: ease-in-out 0.6s;
+}
+.outline-text.active-text{
+    color: #fff;
+    transition: ease-in-out 0.6s;
+}
+#services .active-img-0, #services .active-img-1, #services .active-img-2{
+    opacity: 0;
+}
+#services .active{
+    opacity: 1!important;
+    transition: ease-in-out 0.8s;
+}
+#client{
+    padding: 220px 0;
+}
+.client-grid>div{
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.client-grid > div img.logo{
+    transition: opacity 1s ease-in-out!important;
+    max-width: 168px;
+    max-height: 65px;
+    margin: 0 auto;
+}
+.lazy-load{
+    margin: 0 auto;
+}
+#contact{
+    padding: 0px 0 180px;
+}

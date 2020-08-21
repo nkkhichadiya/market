@@ -1,0 +1,412 @@
+@media (min-width:768px) and (max-width:991px){
+    .navbar{       
+        padding: 6px 25px;      
+    }
+    .navbar .nav-item {
+        margin: 8px 0;
+    }
+    #home{
+        width: 100%;
+        padding-bottom: 0!important;
+    }
+    #home .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #home .row{
+        margin: 0;
+    }
+    #home .home-text p {
+        margin: 0 auto;
+    }
+    #home .card-padding {
+        padding-top: 80px;
+    }
+    #home .card .mobile-wrap{
+        z-index: 50;
+        margin: 0 100px;
+    }
+    #home .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 10px;
+        background:#f04c23 ;
+        margin-top: 0px;
+    }
+    .sticky-init {
+        margin: 50px 0 0;
+    }
+    .card-case-study .hover-content {
+        transition: all .5s ease-out;
+        transition-delay: .5s;
+        padding: 100px 30px 30px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center center;
+        text-decoration: none!important;
+    }
+    #home .mobile-wrap::after{
+        content: '';
+        width: 150%;
+        height: 45%;
+        position: absolute;
+        background: #f04c23;
+        bottom: -1px;
+        left: -100px;
+        display: block;
+        z-index: -1;
+    }
+    .card-mobile-view{
+        background:#f04c23 ;
+        width: 102%;
+        padding:25px 100px;
+        display: block;
+        border: 2px solid #f04c23;
+        margin:-5px;
+    }
+    .card-mobile-view p{
+        background:#f04c23 ;
+        margin: 0px 0 -1px;
+        color: white!important;
+        line-height: 2.14;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    #work-info{
+        margin-top: -1px;
+        z-index: 1;
+        padding: 140px 0;
+    }
+    .button-style{
+        padding-bottom: 10px;
+    }
+    #work-info .btn-text{
+        margin-top: 0px;
+    }
+    #work-info .row-position {
+        margin-top: 50px;
+    }
+    #insight{
+        padding: 100px 0 50px;
+    }
+    #insight .container-fluid{
+        padding: 0 70px;
+    }
+    #insight .card-padding{
+        padding-top: 100px;
+    }
+    #insight .row .row{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    #life-culture {
+        padding: 100px 0;
+        background: #f04c23;
+    }
+    #contact {
+        padding: 150px 0 100px 0;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    .nav-item .social-icon{
+        margin: auto 0;
+    }
+    .nav-item .social-icon a{
+        margin: 0 10px;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    .navbar{       
+        padding: 6px 25px;      
+    }
+    #home{
+        width: 100%;
+        padding-bottom: 0!important;
+    }
+    #home .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #home .row{
+        margin: 0;
+    }
+    #home .home-text p {
+        margin: 0 auto;
+    }
+    #home .card-padding {
+        padding-top: 80px;
+    }
+    #home .card .mobile-wrap{
+        z-index: 50;
+        margin: 0 30px;
+    }
+    #home .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 10px;
+        background:#f04c23 ;
+        margin-top: 0px;
+    }
+    .sticky-init {
+        margin: 50px 0 0;
+    }
+    .home-text h1{
+        font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .hover-content{
+        opacity: 1!important;
+    }
+    .card-case-study .hover-content {
+        transition: all .5s ease-out;
+        transition-delay: .5s;
+        padding: 100px 30px 30px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center center;
+        text-decoration: none!important;
+    }
+    #home .mobile-wrap::after{
+        content: '';
+        width: 300%;
+        height: 45%;
+        position: absolute;
+        background: #f04c23;
+        bottom: -1px;
+        left: -50px;
+        display: block;
+        z-index: -1;
+    }
+    .card-mobile-view{
+        background:#f04c23 ;
+        width: 102%;
+        padding:25px 30px;
+        display: block;
+        border: 2px solid #f04c23;
+        margin:-5px;
+    }
+    .card-mobile-view p{
+        background:#f04c23 ;
+        margin: 0px 0 -1px;
+        color: white!important;
+        line-height: 2.14;
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+    #work-info{
+        margin-top: -2px;
+        z-index: 1;
+        padding: 140px 0;
+    }
+    #work-info .container-fluid .row{
+        padding: 0 30px;
+    }
+    .info-wrapper h3{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    #work-info span.outline-text, #life-culture span.outline-text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .button-style{
+        padding-bottom: 10px;
+    }
+    #work-info .btn-text{
+        margin-top: 0px;
+    }
+    #work-info .row-position {
+        margin-top: 50px;
+    }
+    #insight{
+        padding: 100px 0 50px;
+    }
+    #insight .container-fluid{
+        padding: 0 30px;
+    }
+    #insight .row .row{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    #insight .card-padding{
+        padding-top: 100px;
+    }
+    #insight .home-text h1 strong.x-bold {
+        font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+    }
+    #life-culture {
+        padding: 100px 0;
+        background: #f04c23;
+    }
+    #life-culture .container-fluid .row{
+        padding: 0 30px;
+    }
+    #contact {
+        padding: 150px 0 100px 0;
+    }
+    #contact h1.text-color{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    footer .container-fluid {
+        padding: 0 30px;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    .nav-item .social-icon{
+        margin: auto 0;
+    }
+    .nav-item .social-icon a{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width:575px){
+    .navbar{       
+        padding: 6px 25px;      
+    }
+    #home{
+        width: 100%;
+        padding-bottom: 0!important;
+    }
+    #home .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #home .row{
+        margin: 0;
+    }
+    #home .home-text p {
+        margin: 0 auto;
+    }
+    #home .card-padding {
+        padding-top: 80px;
+    }
+    #home .card .mobile-wrap{
+        z-index: 50;
+        margin: 0 20px;
+    }
+    #home .owl-theme .owl-nav.disabled + .owl-dots {
+        padding-top: 10px;
+        background:#f04c23 ;
+        margin-top: 0px;
+    }
+    .sticky-init {
+        margin: 50px 0 0;
+    }
+    .home-text h1{
+        font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .hover-content{
+        opacity: 1!important;
+    }
+    .card-case-study .hover-content {
+        transition: all .5s ease-out;
+        transition-delay: .5s;
+        padding: 100px 30px 30px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: center center;
+        text-decoration: none!important;
+    }
+    #home .mobile-wrap::after{
+        content: '';
+        width: 300%;
+        height: 45%;
+        position: absolute;
+        background: #f04c23;
+        bottom: -1px;
+        left: -40px;
+        display: block;
+        z-index: -1;
+    }
+    .card-mobile-view{
+        background:#f04c23 ;
+        width: 103%;
+        padding:25px 20px;
+        display: block;
+        border: 2px solid #f04c23;
+        margin:-5px;
+    }
+    .card-mobile-view p{
+        background:#f04c23 ;
+        margin: 0px 0 -1px;
+        color: white!important;
+        line-height: 2.14;
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+    #work-info{
+        margin-top: -2px;
+        z-index: 1;
+        padding: 140px 0;
+    }
+    #work-info .container-fluid .row{
+        padding: 0 20px;
+    }
+    .info-wrapper h3{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    #work-info span.outline-text, #life-culture span.outline-text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .button-style{
+        padding-bottom: 10px;
+    }
+    #work-info .btn-text{
+        margin-top: 0px;
+    }
+    #work-info .row-position {
+        margin-top: 50px;
+    }
+    #insight{
+        padding: 70px 0 20px;
+    }
+    #insight .container-fluid{
+        padding: 0 20px;
+    }
+    #insight .row .row{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    #insight .card-padding{
+        padding-top: 50px;
+    }
+    #insight .home-text h1 strong.x-bold {
+        font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+    }
+    #insight .row .row{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    #life-culture {
+        padding: 70px 0 100px;
+        background: #f04c23;
+    }
+    #life-culture .container-fluid .row{
+        padding: 0 20px;
+    }
+    #contact {
+        padding: 150px 0 100px 0;
+    }
+    #contact h1.text-color{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    footer .container-fluid {
+        padding: 0 20px;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    .nav-item .social-icon{
+        margin: auto 0;
+    }
+    .nav-item .social-icon a{
+        margin: 0 10px;
+    }
+}
