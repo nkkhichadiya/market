@@ -1,0 +1,310 @@
+body, html{
+    height: 100%;
+}
+.height{
+    height: 100%;
+}
+main{
+    height: auto;
+}
+h3.text{
+    color: rgba(0,0,0,0.7);
+    font-weight: 700;
+    font-size: calc(30px + (36 - 30) * ((100vw - 1300px)/ (1680 - 1300)));
+    line-height: 1.4;
+}
+h6.text{
+    color: rgba(0,0,0,0.7);
+    line-height: 1.4;
+    font-weight: 700;
+}
+h6.text strong{
+    color: #f04c23;
+}
+h5.text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #000000;
+}
+h5.text-gray{
+     color: #7e8287!important;
+}
+h5.text span{
+    color: #f04c23;
+}
+h4.text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+h4.text-gray{
+     color: #7e8287!important;
+}
+h4.text strong{
+    color: #f04c23;
+}
+h4.text span{
+    color: #f04c23;
+}
+h3.text strong{
+    color: #f04c23!important;
+}
+h2.text{
+    line-height: 1.4;
+    color: rgba(0,0,0,0.7);
+    font-size: calc(48px + (65 - 48) * ((100vw - 1300px)/ (1680 - 1300)));
+}
+h2.text strong{
+    color: #f04c23!important;
+}
+h1.text{
+    line-height: 1.4;
+    color: #ffffff;
+    font-size: calc(90px + (120 - 90) * ((100vw - 1300px)/ (1680 - 1300)));
+}
+h1.text strong{
+    color: #f04c23!important;
+}
+p.text{
+    color:#3e3e3e;
+    line-height: 2.14;
+    font-size: 14px;
+    font-weight: 600;
+}
+.svg-dot svg{
+    height: 10px;
+    transition: ease 0.8s;
+    width: 10px;
+}
+.svg-dot svg circle{
+    fill: #ffffff;
+}
+.button a p.text{
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    transition: ease 0.8s;
+    line-height: 2.14;
+}
+.button a:hover p.text{
+    color: #008c99;
+    transition: ease 0.8s;
+    transform: translateX(10px);
+}
+.button a:hover .svg-dot svg {
+    transform: translateY(0) scale(2);
+    transition: ease 0.8s;
+}
+.text-width{
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    color: transparent!important;
+}
+#first-page .container-fluid.bg{
+    background-image: url("https://www.pancommunications.com/uploads/2020/01/IMG_4539-e1592250331868.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#first-page .container-fluid.bg::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.5);
+}
+.navbar .color-w svg path{
+    fill: #ffffff;
+}
+.navbar .navbar-brand.color-w svg path:nth-child(1){
+    fill: #f04c23;
+}
+.navbar ul li a.color-w{
+    color: #ffffff!important;
+}
+.navbar ul li a.color-w:hover{
+    color: #008c99!important;
+}
+#animate{
+    overflow: hidden;
+    width: 100%;
+}
+#animate .animate{
+    white-space: nowrap;
+    overflow: hidden;
+}
+#first-page #animate h1.text{
+    animation: scroll 20s infinite;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#fff;
+    color: transparent;
+    font-size: 180px;
+    width: 175vw;
+}
+@keyframes scroll{
+    from{
+        transform: translateX(105%);
+    }
+    to{
+        transform: translateX(-105%);
+    }
+}
+h6.text{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#tech{
+    padding: 220px 0 150px;
+}
+.offset{
+    display: block;
+    height: 60px;
+    width: 100%;
+}
+#reading{
+    padding: 0 0 150px;
+}
+#reading h1.text{
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: #f04c23;
+    color: transparent;
+    font-size: calc(90px + (120 - 90) * ((100vw - 1300px)/ (1680 - 1300)));
+}
+#reading p.text-gray{
+    color: #7e8287!important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.14;
+}
+#team{
+    padding: 130px 0;
+    background: #f04c23;
+}
+#team h5.text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+#team svg{
+    margin-bottom: 35px;
+}
+#team svg.quote-mark path{
+    stroke: #fff;
+}
+.person-info .person-image img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+#team h3.text{
+    display: inline-block;
+    transition: 0.6s ease-in-out;
+}
+#team h3.text.active-text{
+    color: #fff!important;
+    transition: 0.6s ease-in-out;
+} 
+#team .active-0, #team .active-1, #team .active-2, #team .active-3{
+    opacity: 0;
+}
+#team .active{
+    opacity: 1!important;
+    transition: 1s ease-in-out;
+}
+#position{
+    padding: 150px 0;
+}
+.svg-dot svg circle{
+    fill: #008c99;
+}
+a.apply-hover{
+    cursor: pointer;
+}
+h6.hover-text{
+    transition: 0.6s;
+}
+a.apply-hover:hover h6.hover-text{
+    transform: translateX(8px);
+    transition: 0.6s;
+}
+#position .border-row{
+    border: 1px solid #c0c9d3;
+}
+#video a{
+    cursor: pointer;
+}
+.video-background-overlay{
+    content: '';
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+#images{
+    padding: 150px 0;
+}
+#images .owl-images img{
+    width: 100%!important;
+    max-height: 50vh!important;
+}
+#facts h3.text{
+    color: rgba(0,0,0,0.4);
+}
+#facts .active-text{
+    color: #000000!important;
+    transition: 1s ease-in-out;
+}
+#facts .active-0, #facts .active-1, #facts .active-2{
+    opacity: 0;
+    display: none;
+}
+#facts .display{
+    display: block!important;
+}
+#facts .active{
+    opacity: 1!important;
+    transition: 1s ease-in-out;
+}
+#our-team{
+    padding: 200px 0 0;
+}
+#our-team .container-fluid{
+    background: #e7ebf0;
+}
+.person-info{
+    bottom: 60px;
+    left: 0;
+}
+.person-info .person-detail a.clr strong{
+    color: #f04c23!important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    border: 1px solid #f04c23;
+    background: transparent;
+    display: block;
+    backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f04c23;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

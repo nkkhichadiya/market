@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>life-culture</title>
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate/animate.css">
+    <link rel="stylesheet" href="../css/popup/magnific-popup.css">
+    <link rel="stylesheet" href="../css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl-carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="css/responsive-location.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand color-w" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="35" viewBox="0 0 100 35"><g fill="none" fill-rule="nonzero"><path class="svg-red" fill="#FF4800" d="M45.225 22.734a4.674 4.674 0 0 0-4.671 4.67 4.674 4.674 0 0 0 4.67 4.672 4.674 4.674 0 0 0 4.672-4.671 4.674 4.674 0 0 0-4.671-4.671z"></path><path class="svg-grey" fill="#3E3E3E" d="M27.44 12.837C27.44 5.19 21.902.138 13.805.138H.554v34.706h6.09v-8.927h6.47c7.647 0 14.325-4.464 14.325-12.976v-.104zm-6.194.104c0 6.678-5.606 7.405-7.993 7.405H6.678V5.709h7.232c2.734 0 7.336.935 7.336 7.128v.104zm23.979-.934L33.529 34.879h-6.54L44.776.139h.934l17.786 34.705h-6.54l-11.73-22.837zM99.654.138v34.706h-.969L75.398 12.837v22.007h-5.986V.138h.969l23.287 21.8V.138h5.986z"></path></g></svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item nav-hover-work">
+                  <a class="nav-link color-w" href="../work/work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link color-w" href="#">Agency</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link color-w" href="#">insight</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link color-w" href="#">Life & culture</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link color-w" href="#">location</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link color-w" href="#">contact</a>
+                </li>
+                <li class="nav-item ml-lg-auto d-flex justify-content-between">
+                    <a class="nav-link last-child color-w" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+                            <g fill="none" fill-rule="nonzero">
+                                <path class="play-button" fill="#008C99" d="M44.939 33.447l-14.412-9.583c-1.236-.824-2.883.075-2.883 1.534v19.166c0 1.497 1.666 2.358 2.883 1.535l14.412-9.583c1.085-.692 1.085-2.34 0-3.07z"></path>
+                                <g fill="#3E3E3E">
+                                    <path class="text-rotation" d="M15.816 13.925L11.79 8.928l1.067-.861 3.313 4.117 2.022-1.628.71.88zM23.62 5.278c.468.955.6 1.797.393 2.546-.224.748-.767 1.328-1.647 1.778-.88.43-1.684.524-2.414.243-.73-.28-1.329-.898-1.797-1.853-.468-.955-.599-1.797-.374-2.545.224-.75.767-1.33 1.647-1.779.88-.449 1.684-.524 2.396-.243.73.28 1.328.899 1.796 1.853zm-4.192 2.096c.318.637.674 1.067 1.085 1.273.412.206.843.187 1.33-.056.973-.487 1.141-1.366.486-2.658-.636-1.291-1.441-1.703-2.415-1.216-.486.243-.767.58-.842 1.029-.075.45.038.973.356 1.628zM28.45.711l1.328-.318-.636 6.738-1.441.356-3.594-5.746 1.329-.319 2.059 3.444c.112.206.243.45.393.712.13.28.224.467.28.58-.037-.262-.037-.749 0-1.441L28.45.71zM35.842 6.476l-3.687.15-.262-6.401 3.687-.15.038 1.104-2.34.094.056 1.403 2.171-.093.038 1.104-2.171.094.075 1.647 2.34-.094zM42.636 3.668l1.928-2.246 1.423.337-2.995 3.313-.58 2.433-1.31-.318.58-2.377L40.54.468l1.441.356zM51.901 8.03c-.468.954-1.067 1.553-1.797 1.834-.73.28-1.534.187-2.414-.244-.88-.43-1.423-1.03-1.647-1.778-.225-.748-.094-1.59.393-2.545.486-.955 1.085-1.572 1.797-1.834.73-.262 1.534-.188 2.414.262.88.449 1.423 1.029 1.647 1.778.206.73.075 1.572-.393 2.526zM47.71 5.932c-.319.637-.45 1.18-.356 1.628.094.45.356.787.842 1.03.973.487 1.778.075 2.415-1.198.655-1.291.486-2.171-.487-2.658-.487-.243-.936-.262-1.348-.056-.374.187-.748.618-1.066 1.254zM59.668 10.22l-2.695 3.144c-.3.355-.655.599-1.048.748-.393.131-.805.15-1.235.019-.43-.112-.842-.356-1.273-.711-.618-.543-.973-1.104-1.048-1.722-.075-.618.131-1.198.618-1.76l2.695-3.144 1.03.88-2.546 2.976c-.318.374-.487.711-.487 1.03 0 .299.169.598.524.898.337.28.655.411.955.355.3-.056.617-.262.936-.636l2.545-2.976 1.03.898zM59.35 15.91l-1.965 1.459-.805-1.086 5.147-3.836 1.123 1.497c.524.692.786 1.31.768 1.834 0 .524-.262.973-.786 1.366a1.78 1.78 0 0 1-.992.356c-.356 0-.712-.094-1.086-.3a423.67 423.67 0 0 0-1.123 3.182l-.898-1.216 1.066-2.695-.449-.562zm.88-.656l.262.356c.262.337.505.561.749.636.243.075.486.019.73-.15.243-.187.355-.393.336-.636-.018-.243-.168-.543-.43-.899l-.243-.336-1.404 1.029zM67.099 24.257c-.169-.487-.487-.786-.936-.917-.45-.131-1.01-.094-1.647.15-1.348.486-1.834 1.235-1.479 2.245.15.43.45.899.861 1.423l-1.066.374a4.522 4.522 0 0 1-.899-1.553c-.318-.88-.28-1.647.075-2.303.374-.655 1.048-1.16 2.04-1.516.636-.224 1.217-.299 1.778-.243.562.056 1.03.262 1.441.599.412.337.712.786.917 1.366.206.58.281 1.236.206 1.928l-1.197-.037c.018-.262.037-.524.037-.786a2.678 2.678 0 0 0-.131-.73zM63.43 32.866l1.46-.655-.3-2.32-1.571-.263-.187-1.46 6.681 1.404.225 1.647-6.083 3.088-.225-1.44zm2.546-1.141c1.31-.6 2.059-.955 2.227-1.03.169-.075.318-.13.412-.168-.374-.038-1.329-.206-2.864-.468l.225 1.666zM65.882 36.74l-2.452-.205.113-1.348 6.4.524-.149 1.872c-.075.86-.28 1.497-.636 1.89-.356.393-.842.562-1.498.506a1.743 1.743 0 0 1-.973-.393c-.28-.225-.486-.543-.617-.936-1.517.842-2.49 1.403-2.939 1.647l.131-1.498 2.583-1.328.037-.73zm1.105.076l-.038.43c-.037.43.019.749.131.973.131.225.337.337.655.356.3.019.524-.056.674-.262.15-.206.243-.524.28-.955l.038-.411-1.74-.131zM61.84 44.676l1.01-3.556 6.177 1.76-1.011 3.556-1.067-.3.637-2.246-1.348-.393-.599 2.097-1.067-.3.6-2.096-1.592-.45-.636 2.247zM59.668 49.318l1.629-3.313 5.746 2.827-1.629 3.312-.992-.486 1.03-2.097-1.273-.617-.954 1.946-.992-.486.954-1.947-1.478-.73-1.03 2.097zM60.061 53.099l-1.946-1.497.824-1.086 5.09 3.893-1.141 1.479c-.524.692-1.048 1.104-1.554 1.254-.505.13-1.01.018-1.535-.375a1.76 1.76 0 0 1-.617-.86c-.112-.337-.112-.712-.019-1.124-1.74-.112-2.845-.168-3.369-.205l.917-1.198 2.883.28.467-.561zm.88.674l-.262.355c-.262.337-.393.637-.412.88-.018.243.113.468.356.655s.468.225.711.15c.225-.094.468-.3.749-.655l.243-.337-1.385-1.048zM49.056 59.8l2.826 5.764-1.216.6-2.321-4.755-2.34 1.142-.486-1.01zM39.51 66.481c-.243-1.03-.186-1.89.188-2.564.374-.674 1.048-1.142 2.003-1.366.954-.225 1.759-.131 2.395.3.655.43 1.086 1.16 1.348 2.208.243 1.03.187 1.89-.187 2.564-.375.674-1.048 1.123-2.003 1.348-.955.224-1.76.13-2.396-.3-.636-.43-1.085-1.16-1.347-2.19zm4.568-1.104c-.169-.693-.43-1.198-.787-1.479-.355-.28-.786-.374-1.31-.243-1.048.262-1.403 1.086-1.067 2.49.337 1.403 1.03 1.983 2.078 1.721.524-.13.88-.393 1.067-.823.187-.43.187-.973.019-1.666zM33.858 69.869l-1.366.019 2.078-6.458 1.478-.018 2.284 6.382-1.367.019-1.272-3.8a10.79 10.79 0 0 1-.225-.786c-.075-.3-.131-.505-.15-.617-.019.262-.13.748-.3 1.422l-1.16 3.837zM27.869 62.607l3.631.674-1.16 6.307-3.631-.674.205-1.104 2.303.43.262-1.384-2.134-.393.206-1.105 2.133.393.3-1.628-2.302-.43zM20.626 63.824l-2.377 1.759-1.31-.655 3.65-2.546 1.122-2.227 1.217.599-1.104 2.19.13 4.492-1.31-.655zM12.559 57.516c.674-.823 1.404-1.291 2.17-1.385.768-.094 1.536.15 2.284.767.768.618 1.16 1.33 1.198 2.097.038.767-.28 1.572-.954 2.395-.674.824-1.404 1.292-2.171 1.385-.768.094-1.535-.168-2.284-.786-.767-.617-1.16-1.329-1.198-2.096-.037-.749.281-1.553.955-2.377zm3.612 2.976c.45-.562.693-1.048.711-1.516.02-.45-.187-.842-.599-1.198-.842-.692-1.722-.468-2.639.636-.917 1.123-.954 2.022-.13 2.696.411.337.842.468 1.29.355.45-.112.918-.412 1.367-.973zM5.465 53.66l3.332-2.47c.374-.28.767-.45 1.198-.487.411-.037.823.038 1.198.244.393.205.748.524 1.085.973.487.655.711 1.31.636 1.928-.074.617-.393 1.141-.992 1.59L8.61 57.91l-.805-1.085 3.144-2.359c.393-.3.637-.599.693-.88.075-.299-.038-.636-.318-.991-.263-.356-.543-.543-.861-.562-.3-.019-.656.112-1.049.412l-3.144 2.34-.805-1.124zM7.037 48.176l2.246-.992.543 1.236-5.877 2.583-.748-1.704c-.356-.804-.468-1.46-.337-1.965.13-.505.486-.898 1.066-1.16.337-.15.693-.187 1.049-.113.355.075.673.244.992.525.935-1.46 1.534-2.415 1.796-2.845l.618 1.385-1.628 2.395.28.655zm-1.01.45l-.169-.393c-.168-.393-.374-.655-.58-.786-.206-.131-.468-.131-.749 0-.28.13-.43.299-.468.542-.037.244.038.562.225.974l.169.374 1.572-.711zM7.019 40.39l-6.364.824-.168-1.348 5.24-.673-.337-2.583 1.123-.15zM6.55 35.206l-6.419-.112.019-1.367 6.42.113zM6.869 30.751l-.206 1.33L.337 31.07l.58-3.631 1.104.168-.374 2.302 1.628.262.337-2.152 1.105.168-.337 2.153zM8.834 23.658L7.6 27.139l-6.046-2.134 1.236-3.48 1.048.373-.767 2.209 1.328.468.73-2.04 1.048.374-.748 2.04 1.553.543.768-2.209z"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <div class="social-icon justify-content-between d-flex d-lg-none ml-auto">
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15" height="15" viewBox="0 0 408.788 408.788" style="enable-background:new 0 0 408.788 408.788;" xml:space="preserve">
+                            <path style="fill:default;" d="M353.701,0H55.087C24.665,0,0.002,24.662,0.002,55.085v298.616c0,30.423,24.662,55.085,55.085,55.085  h147.275l0.251-146.078h-37.951c-4.932,0-8.935-3.988-8.954-8.92l-0.182-47.087c-0.019-4.959,3.996-8.989,8.955-8.989h37.882  v-45.498c0-52.8,32.247-81.55,79.348-81.55h38.65c4.945,0,8.955,4.009,8.955,8.955v39.704c0,4.944-4.007,8.952-8.95,8.955  l-23.719,0.011c-25.615,0-30.575,12.172-30.575,30.035v39.389h56.285c5.363,0,9.524,4.683,8.892,10.009l-5.581,47.087  c-0.534,4.506-4.355,7.901-8.892,7.901h-50.453l-0.251,146.078h87.631c30.422,0,55.084-24.662,55.084-55.084V55.085  C408.786,24.662,384.124,0,353.701,0z"></path>
+                        </svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 410.155 410.155" style="enable-background:new 0 0 410.155 410.155;" xml:space="preserve">
+                            <path style="fill:default;" d="M403.632,74.18c-9.113,4.041-18.573,7.229-28.28,9.537c10.696-10.164,18.738-22.877,23.275-37.067  l0,0c1.295-4.051-3.105-7.554-6.763-5.385l0,0c-13.504,8.01-28.05,14.019-43.235,17.862c-0.881,0.223-1.79,0.336-2.702,0.336  c-2.766,0-5.455-1.027-7.57-2.891c-16.156-14.239-36.935-22.081-58.508-22.081c-9.335,0-18.76,1.455-28.014,4.325  c-28.672,8.893-50.795,32.544-57.736,61.724c-2.604,10.945-3.309,21.9-2.097,32.56c0.139,1.225-0.44,2.08-0.797,2.481  c-0.627,0.703-1.516,1.106-2.439,1.106c-0.103,0-0.209-0.005-0.314-0.015c-62.762-5.831-119.358-36.068-159.363-85.14l0,0  c-2.04-2.503-5.952-2.196-7.578,0.593l0,0C13.677,65.565,9.537,80.937,9.537,96.579c0,23.972,9.631,46.563,26.36,63.032  c-7.035-1.668-13.844-4.295-20.169-7.808l0,0c-3.06-1.7-6.825,0.485-6.868,3.985l0,0c-0.438,35.612,20.412,67.3,51.646,81.569  c-0.629,0.015-1.258,0.022-1.888,0.022c-4.951,0-9.964-0.478-14.898-1.421l0,0c-3.446-0.658-6.341,2.611-5.271,5.952l0,0  c10.138,31.651,37.39,54.981,70.002,60.278c-27.066,18.169-58.585,27.753-91.39,27.753l-10.227-0.006  c-3.151,0-5.816,2.054-6.619,5.106c-0.791,3.006,0.666,6.177,3.353,7.74c36.966,21.513,79.131,32.883,121.955,32.883  c37.485,0,72.549-7.439,104.219-22.109c29.033-13.449,54.689-32.674,76.255-57.141c20.09-22.792,35.8-49.103,46.692-78.201  c10.383-27.737,15.871-57.333,15.871-85.589v-1.346c-0.001-4.537,2.051-8.806,5.631-11.712c13.585-11.03,25.415-24.014,35.16-38.591  l0,0C411.924,77.126,407.866,72.302,403.632,74.18L403.632,74.18z"></path>
+                            </svg></a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;" xml:space="preserve">
+                                <path style="fill:default;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"></path>
+                            </svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
+                            <path style="fill:default;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728  c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137  C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607  c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path>
+                        </svg></a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        <section id="first-page" class="height position-relative">
+            <div class="container-fluid bg height">
+                <div class="row text-center align-items-center height">
+                    <div class="col-lg-10 mx-auto">
+                        <h1 class="text">
+                            Welcome To <br>
+                            <strong>PAN Orlando</strong>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <section id="animate" class="position-absolute w-100" style="bottom: -50px; left: 0;">
+                <div class="animate">
+                    <h1 class="text">
+                        The Sunshine State
+                    </h1>
+                </div>
+            </section>
+            <section id="down-page" class="positio-relative">
+                <div class="container-fluid py-2" style="background: #f04c23;">
+                    <div class="row d-flex py-4 align-items-center">
+                        <div class="col-lg-6">
+                            <h6 class="text text-white">1 ORLANDO CENTRE, SUITE 1650, ORLANDO, FL 32803</h6>
+                        </div>
+                        <div class="col-lg-3">
+                            <h6 class="text text-right pr-3"><a href="" class="text-white">INFO@PANCOMM.COM
+                            </a></h6>
+                        </div>
+                        <div class="col-lg-3">
+                            <h6 class="text text-right pr-3"><a href="" class="text-white">+1 407-734-7300
+                            </a></h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="tech">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 p-4">
+                        <h6 class="text mb-4">Tech + Talent = Hottest Ticket in Town</h6>
+                        <h3 class="text">Our PAN Orlando team is <strong>passionate</strong> about building a creative, supportive and empowering culture.</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="offset"></div>
+                        <p class="text">                           
+                            Named a Best Place to Work by the Orlando Business Journal several years in a row, our Orlando office is all about teamwork, work/life balance and crushing our client goals. Our Southeast headquarters is positioned at the center of the sunshine state surrounded by some of the most exciting and innovative hospitality brands, tech hubs, hospitals, and universities. And whether it’s yoga after work to unwind, Summer Fridays at the beach, or mentorship meetings that help you stay on track, our Orlando team takes pride in creating meaningful solutions for clients and having fun along the way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reading">
+            <div class="container-fluid">
+                <div class="row d-flex">
+                    <div class="col d-inline-block text-center">
+                        <h1 class="text m-0">14</h1>
+                        <p class="text-gray  m-0">Emplopyes</p>
+                    </div>
+                    <div class="col d-inline-block text-center">
+                        <h1 class="text m-0">51</h1>
+                        <p class="text-gray  m-0">OCSC Games</p>
+                    </div>
+                    <div class="col d-inline-block text-center">
+                        <h1 class="text m-0">73</h1>
+                        <p class="text-gray  m-0">Avarage Temp</p>
+                    </div>
+                    <div class="col d-inline-block text-center">
+                        <h1 class="text m-0">13</h1>
+                        <p class="text-gray  m-0">Pats</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h6 class="text text-white mb-5">
+                            Work with a Team that Supports You and Have Fun in the Sun
+                        </h6>
+                        <h3 class="text mb-5 text-white text-width text-0 active-text">
+                            PANFit Group Activities
+                        </h3>
+                        <h3 class="text mb-5 text-white text-width text-1">
+                            Otown Lowdowns
+                        </h3>
+                        <h3 class="text mb-5 text-white text-width text-2">
+                            Brain Breaks + Coffee Chats
+                        </h3>
+                        <h3 class="text mb-5 text-white text-width text-3">
+                            Top Notch Benefits
+                        </h3>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 positio-relative">
+                        <div class="position-absolute active-0 active">
+                            <svg class="quote-mark" xmlns="http://www.w3.org/2000/svg" width="82" height="56" viewBox="0 0 82 56"><path fill="none" fill-rule="nonzero" stroke="#F04C23" stroke-width="2" d="M1 36.972C1 46.906 9.052 54.96 18.986 54.96c9.934 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.624-17.976 4.54-4.454 10.76-7.205 17.624-7.205V1C17.106 1 1 17.106 1 36.972zM80.14 1C60.273 1 44.167 17.106 44.167 36.972c0 9.934 8.054 17.987 17.987 17.987 9.933 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.625-17.976 4.54-4.454 10.761-7.205 17.625-7.205V1z"></path></svg>
+                            <h5 class="text text-white">
+                                I love our monthly PANfit yoga classes (and the trips to World of Beer beforehand)!
+                            </h5>                      
+                            <div class="person-info pt-3 d-flex">
+                                <div class="person-image pr-2">
+                                    <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/06/Bell-Brittany-100x100.png 100x100,https://www.pancommunications.com/uploads/2020/06/Bell-Brittany.png 400x400" alt="" data-lazy-key="9" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/06/Bell-Brittany-100x100.png">
+                                </div>
+                                <div class="person-detail">
+                                    <a class="text-white" href=""><strong>Brittany Bell</strong></a><br>
+                                    <div class="d-flex">
+                                        <p class="text-white m-0">HR<strong> | </strong></p>
+                                        <a class="text-white" href=""><strong>ORLANDO, FL</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-absolute active-1">
+                            <svg class="quote-mark" xmlns="http://www.w3.org/2000/svg" width="82" height="56" viewBox="0 0 82 56"><path fill="none" fill-rule="nonzero" stroke="#F04C23" stroke-width="2" d="M1 36.972C1 46.906 9.052 54.96 18.986 54.96c9.934 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.624-17.976 4.54-4.454 10.76-7.205 17.624-7.205V1C17.106 1 1 17.106 1 36.972zM80.14 1C60.273 1 44.167 17.106 44.167 36.972c0 9.934 8.054 17.987 17.987 17.987 9.933 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.625-17.976 4.54-4.454 10.761-7.205 17.625-7.205V1z"></path></svg>
+                            <h5 class="text text-white">
+                                We meet every other week as an office, and I love taking that time to just connect with everyone in the office and hear what’s going on across their accounts and in their personal lives. It has helped bring us even closer as an office (if that was possible)
+                            </h5>                      
+                            <div class="person-info pt-3 d-flex">
+                                <div class="person-image pr-2">
+                                    <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/06/SD_Headshot_2019-1-e1592342005289-100x100.jpg 100x100,https://www.pancommunications.com/uploads/2020/06/SD_Headshot_2019-1-e1592342005289-414x414.jpg 414x414,https://www.pancommunications.com/uploads/2020/06/SD_Headshot_2019-1-768x512.jpg 768x512,https://www.pancommunications.com/uploads/2020/06/SD_Headshot_2019-1-960x640.jpg 960x640,https://www.pancommunications.com/uploads/2020/06/SD_Headshot_2019-1-e1592342005289.jpg 667x667" alt="" data-lazy-key="10" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/06/SD_Headshot_2019-1-e1592342005289-100x100.jpg">
+                                </div>
+                                <div class="person-detail">
+                                    <a class="text-white" href=""><strong>Staci Didner</strong></a><br>
+                                    <div class="d-flex">
+                                        <p class="text-white m-0">Account Managor<strong> | </strong></p>
+                                        <a class="text-white" href=""><strong>ORLANDO, FL</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-absolute active-2">
+                            <svg class="quote-mark" xmlns="http://www.w3.org/2000/svg" width="82" height="56" viewBox="0 0 82 56"><path fill="none" fill-rule="nonzero" stroke="#F04C23" stroke-width="2" d="M1 36.972C1 46.906 9.052 54.96 18.986 54.96c9.934 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.624-17.976 4.54-4.454 10.76-7.205 17.624-7.205V1C17.106 1 1 17.106 1 36.972zM80.14 1C60.273 1 44.167 17.106 44.167 36.972c0 9.934 8.054 17.987 17.987 17.987 9.933 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.625-17.976 4.54-4.454 10.761-7.205 17.625-7.205V1z"></path></svg>
+                            <h5 class="text text-white">
+                                Definitely going on a walk and grabbing coffee. Coffee is a must and there’s nothing like taking a break with some co-workers and grabbing a cup!
+                            </h5>                      
+                            <div class="person-info pt-3 d-flex">
+                                <div class="person-image pr-2">
+                                    <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/06/Paige-Wagner-1-100x100.png 100x100,https://www.pancommunications.com/uploads/2020/06/Paige-Wagner-1.png 400x400" alt="" data-lazy-key="11" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/06/Paige-Wagner-1-100x100.png">
+                                </div>
+                                <div class="person-detail">
+                                    <a class="text-white" href=""><strong>Paige Wagner</strong></a><br>
+                                    <div class="d-flex">
+                                        <p class="text-white m-0">Account superviser<strong> | </strong></p>
+                                        <a class="text-white" href=""><strong>ORLANDO, FL</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="position-absolute active-3">
+                            <svg class="quote-mark" xmlns="http://www.w3.org/2000/svg" width="82" height="56" viewBox="0 0 82 56"><path fill="none" fill-rule="nonzero" stroke="#F04C23" stroke-width="2" d="M1 36.972C1 46.906 9.052 54.96 18.986 54.96c9.934 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.624-17.976 4.54-4.454 10.76-7.205 17.624-7.205V1C17.106 1 1 17.106 1 36.972zM80.14 1C60.273 1 44.167 17.106 44.167 36.972c0 9.934 8.054 17.987 17.987 17.987 9.933 0 17.986-8.053 17.986-17.987 0-9.811-7.86-17.783-17.625-17.976 4.54-4.454 10.761-7.205 17.625-7.205V1z"></path></svg>
+                            <h5 class="text text-white">
+                                From work at home days that promote flexibility to an amazing 10-week, fully paid maternity leave program, PAN has the best benefits that allow me to juggle work and family life the best way possible.
+                            </h5>                      
+                            <div class="person-info pt-3 d-flex">
+                                <div class="person-image pr-2">
+                                    <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/06/Laura-Beauregard-Headshot-1-e1592342143747-100x100.jpg 100x100,https://www.pancommunications.com/uploads/2020/06/Laura-Beauregard-Headshot-1-e1592342143747.jpg 280x280" alt="" data-lazy-key="12" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/06/Laura-Beauregard-Headshot-1-e1592342143747-100x100.jpg">
+                                </div>
+                                <div class="person-detail">
+                                    <a class="text-white" href=""><strong>Laura Beauregard</strong></a><br>
+                                    <div class="d-flex">
+                                        <p class="text-white m-0">CEO<strong> | </strong></p>
+                                        <a class="text-white" href=""><strong>ORLANDO, FL</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="position">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 p-3">
+                        <h6 class="text mb-5">
+                            Open Positions
+                        </h6>
+                        <h3 class="text">
+                            Our <strong>Tight-Knit Florida Crew</strong> is Looking for Leaders, Problem Solvers and Creative Ninjas.
+                        </h3>
+                        <div class="button d-inline-block mt-4">
+                            <a href="" class="d-flex align-items-center">
+                                <div class="svg-dot pr-2">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="10px" y="10px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve"><circle fill="default" stroke="#008c99" stroke-width="1" cx="20" cy="20" r="19.5"></circle></svg>
+                                </div>
+                                <div class="">
+                                    <p class="m-0 text-uppercase text">see all careers</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="d-flex">
+                            <div class="col-4">
+                                <h4 class="text">Job Title</h4>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="text">Catagory</h4>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="text">Apply</h4>
+                            </div>
+                        </div>
+                        <a class="d-flex mt-4 apply-hover">
+                            <div class="col-4"> 
+                                <h6 class="text text-dark">Account Supervisor, B2B Tech</h6>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="text">
+                                    Public Relations
+                                </h6>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="text hover-text">
+                                    <strong>APPLY NOW >></strong>
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mx-0 align-items-center p-5 mt-lg-5 border-row">
+                    <div class="col-lg-5">
+                        <img class="w-100 lazy-load aos-init loaded aos-animate" data-lazy-srcset="https://www.pancommunications.com/wp-content/themes/pan/library/dist/images/overheard.svg 428x94" data-aos="fade-in" data-lazy-key="17" src="https://www.pancommunications.com/wp-content/themes/pan/library/dist/images/overheard.svg">
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <p class="text">“There’s an ongoing debate in our office as to whether soup is a snack or a meal. The battle continues to this day. So what’s your take?”</p>
+                        <h6 class="text mt-4">Laura Beauregard | <strong>DIRECTOR</strong></h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class=" position-relative max-pad align-items-center overflow-hidden d-block" style="height:765px;">
+            <a href="" class="position-absolute" style="width: 100%; height:100%; top: 0; left: 0;">
+                <iframe class="youtube-embed lazy-load video-background loaded" id="video-6" data-youtube="8SgKKSLcGcQ" data-lazy-srcset="8SgKKSLcGcQ 16x9" data-width="640" data-height="360" data-lazy-key="18" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/8SgKKSLcGcQ?autoplay=1&amp;controls=0&amp;disablekb=1&amp;enablejsapi=1&amp;fs=0&amp;loop=1&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;autohide=1&amp;rel=0&amp;origin=https%3A%2F%2Fwww.pancommunications.com&amp;widgetid=1"></iframe>
+                <div class="video-background-overlay darken"></div>
+            </a>
+        </section>
+
+        <section id="images">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="owl-carousel owl-theme owl-images align-items-center">
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/16-414x552.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/16-100x133.jpg 100x133,https://www.pancommunications.com/uploads/2020/01/16-414x552.jpg 414x552,https://www.pancommunications.com/uploads/2020/01/16.jpg 480x640" alt="" data-lazy-set="height" data-lazy-key="19" src="https://www.pancommunications.com/uploads/2020/01/16-414x552.jpg" style="width: 369px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/AA65A7472449_1_105_c.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/AA65A7472449_1_105_c-100x112.jpg 100x112,https://www.pancommunications.com/uploads/2020/01/AA65A7472449_1_105_c-414x465.jpg 414x465,https://www.pancommunications.com/uploads/2020/01/AA65A7472449_1_105_c.jpg 602x676" alt="" data-lazy-set="height" data-lazy-key="20" src="https://www.pancommunications.com/uploads/2020/01/AA65A7472449_1_105_c.jpg" style="width: 438.142px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/Baby.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/Baby-100x75.jpg 100x75,https://www.pancommunications.com/uploads/2020/01/Baby-414x311.jpg 414x311,https://www.pancommunications.com/uploads/2020/01/Baby.jpg 640x480" alt="" data-lazy-set="height" data-lazy-key="21" src="https://www.pancommunications.com/uploads/2020/01/Baby.jpg" style="width: 656px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-414x736.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-100x178.jpg 100x178,https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-414x736.jpg 414x736,https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-768x1366.jpg 768x1366,https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-960x1707.jpg 960x1707,https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-1440x2561.jpg 1440x2561,https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-scaled.jpg 1439x2560" alt="" data-lazy-set="height" data-lazy-key="22" src="https://www.pancommunications.com/uploads/2020/01/Cornhole-champs-1-414x736.jpg" style="width: 276.75px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/IMG_4539-1-768x566.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/IMG_4539-1-100x74.jpg 100x74,https://www.pancommunications.com/uploads/2020/01/IMG_4539-1-414x305.jpg 414x305,https://www.pancommunications.com/uploads/2020/01/IMG_4539-1-768x566.jpg 768x566,https://www.pancommunications.com/uploads/2020/01/IMG_4539-1-960x707.jpg 960x707,https://www.pancommunications.com/uploads/2020/01/IMG_4539-1.jpg 1125x829" alt="" data-lazy-set="height" data-lazy-key="25" src="https://www.pancommunications.com/uploads/2020/01/IMG_4539-1-768x566.jpg" style="width: 667.59px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/IMG_0758-414x551.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/IMG_0758-100x133.jpg 100x133,https://www.pancommunications.com/uploads/2020/01/IMG_0758-414x551.jpg 414x551,https://www.pancommunications.com/uploads/2020/01/IMG_0758-768x1022.jpg 768x1022,https://www.pancommunications.com/uploads/2020/01/IMG_0758-960x1278.jpg 960x1278,https://www.pancommunications.com/uploads/2020/01/IMG_0758-rotated.jpg 1160x1544" alt="" data-lazy-set="height" data-lazy-key="23" src="https://www.pancommunications.com/uploads/2020/01/IMG_0758-414x551.jpg" style="width: 369.67px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/IMG_0776-414x552.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/IMG_0776-100x133.jpg 100x133,https://www.pancommunications.com/uploads/2020/01/IMG_0776-414x552.jpg 414x552,https://www.pancommunications.com/uploads/2020/01/IMG_0776-768x1024.jpg 768x1024,https://www.pancommunications.com/uploads/2020/01/IMG_0776-960x1280.jpg 960x1280,https://www.pancommunications.com/uploads/2020/01/IMG_0776-1440x1920.jpg 1440x1920,https://www.pancommunications.com/uploads/2020/01/IMG_0776-rotated.jpg 1512x2016" alt="" data-lazy-set="height" data-lazy-key="24" src="https://www.pancommunications.com/uploads/2020/01/IMG_0776-414x552.jpg" style="width: 369px;">
+                        </a>
+                        <a class="" href="https://www.pancommunications.com/uploads/2020/01/IMG_4544-768x733.jpg">
+                            <img class="lazy-load d-block h-100 loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/IMG_4544-100x95.jpg 100x95,https://www.pancommunications.com/uploads/2020/01/IMG_4544-414x395.jpg 414x395,https://www.pancommunications.com/uploads/2020/01/IMG_4544-768x733.jpg 768x733,https://www.pancommunications.com/uploads/2020/01/IMG_4544-960x916.jpg 960x916,https://www.pancommunications.com/uploads/2020/01/IMG_4544.jpg 1125x1073" alt="" data-lazy-set="height" data-lazy-key="26" src="https://www.pancommunications.com/uploads/2020/01/IMG_4544-768x733.jpg" style="width: 515.492px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="facts">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-lg-5">
+                        <h6 class="text mb-5">
+                            Fun Facts from the Orlando Team
+                        </h6>
+                        <h3 class="text mb-5 text-0 active-text">
+                            What's Your Favorite Tourist Spot?
+                        </h3>
+                        <h3 class="text mb-5 text-1">
+                            What's Your Favorite lunch Spot?
+                        </h3>
+                        <h3 class="text mb-5 text-2">
+                            What’s your favorite adult beverage?
+                        </h3>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 position-relative">
+                        <div class="animate active-0 display active">
+                            <div class="cms">
+                                <h5>“Universal’s Wizarding World of Harry Potter and Diagon Alley”</h5>
+                                <p>&nbsp;</p>                                
+                                <h5>“Leu Gardens”</h5>
+                                <p>&nbsp;</p>                               
+                                <h5>“Dr Phillips Center for Performing Arts”</h5>
+                                <p>&nbsp;</p>                            
+                                <h5>“Orlando City Soccer Games”</h5>
+                                <p>&nbsp;</p>                               
+                                <h5>“Wekiva Island is amazing for canoeing and kayaking.”</h5>
+                                <p>&nbsp;</p>                               
+                                <h5>“The outlet malls”</h5>
+                                <p>&nbsp;</p>                               
+                                <h5>“Disney and Universal, the magic truly lives in Orlando.</h5>
+                            </div>
+                        </div>
+                        <div class="animate active-1">
+                            <div class="cms">
+                                <h5>“The crowd favorite is hands down – Bento!”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Nature’s Table and Create Your Nature”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“I love Mynt because I LOVE Indian food and it’s the best Indian food I’ve had in Orlando.”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Market on South or Dandelion Café!”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Kabooki Sushi”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Tin &amp; Taco and Gringos Locos”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Bartaco and Kyoto Japanese Grill have some great lunch deals”</h5>
+                            </div>
+                        </div>
+                        <div class="animate active-2">
+                            <div class="cms">
+                                <h5>“Spicy Bloody Mary”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Executive Martini”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Sangria”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Gin &amp; Tonics forever</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Cackler IPA from my local brewery, Rockpit Brewery, a tangerine whiteclaw or a nice class of red cabernet (the Dark Horse brand)”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Spicy margarita”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Chocolate milk? Jk lol. I love a good Moscato, mimosa or margarita”</h5>
+                                <h5>“Melon ball”</h5>
+                                <p>&nbsp;</p>
+                                <h5>“Wine of any kind!”</h5>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-team">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 positio-relative p-0">
+                        <div class="">
+                            <div class=" owl-images owl-carousel owl-theme">
+                                <div class="">
+                                    <img class="lazy-load h-100 mx-auto w-100 d-none d-lg-block loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/emily-full-body-team-100x123.png 100x123,https://www.pancommunications.com/uploads/2020/03/emily-full-body-team-414x509.png 414x509,https://www.pancommunications.com/uploads/2020/03/emily-full-body-team-768x944.png 768x944,https://www.pancommunications.com/uploads/2020/03/emily-full-body-team-960x1180.png 960x1180,https://www.pancommunications.com/uploads/2020/03/emily-full-body-team.png 1204x1480" alt="" data-lazy-set="height" data-lazy-key="28" src="https://www.pancommunications.com/uploads/2020/03/emily-full-body-team-768x944.png">
+                                    <div class="person-info px-4 py-3 d-flex bg-white position-absolute">
+                                        <div class="person-image pr-2">
+                                            <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/emily-headshot-team-100x100.jpg 100x100,https://www.pancommunications.com/uploads/2020/03/emily-headshot-team-414x414.jpg 414x414,https://www.pancommunications.com/uploads/2020/03/emily-headshot-team.jpg 602x602" alt="" data-lazy-key="30" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/03/emily-headshot-team-100x100.jpg">
+                                        </div>
+                                        <div class="person-detail">
+                                            <a class="text-dark" href=""><strong>Emily Holt</strong></a><br>
+                                            <div class="d-flex">
+                                                <p class="text-dark m-0">Vice President<strong> | </strong></p>
+                                                <a class="text-dark clr" href=""><strong>BOSTON, MA</strong></a>
+                                            </div>
+                                        </div>
+                                    </div>                           
+                                </div>
+                                <div class="">
+                                    <img class="lazy-load h-100 mx-auto d-none d-lg-block loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/phil-bodyshot-2-100x123.png 100x123,https://www.pancommunications.com/uploads/2020/01/phil-bodyshot-2-414x509.png 414x509,https://www.pancommunications.com/uploads/2020/01/phil-bodyshot-2-768x944.png 768x944,https://www.pancommunications.com/uploads/2020/01/phil-bodyshot-2-960x1180.png 960x1180,https://www.pancommunications.com/uploads/2020/01/phil-bodyshot-2.png 1204x1480" alt="" data-lazy-set="height" data-lazy-key="31" src="https://www.pancommunications.com/uploads/2020/01/phil-bodyshot-2-768x944.png">
+                                    <div class="person-info px-4 py-3 d-flex bg-white position-absolute">
+                                        <div class="person-image pr-2">
+                                            <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/phil-headshot-team-100x100.jpg 100x100,https://www.pancommunications.com/uploads/2020/01/phil-headshot-team-414x414.jpg 414x414,https://www.pancommunications.com/uploads/2020/01/phil-headshot-team.jpg 602x602" alt="" data-lazy-key="33" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/01/phil-headshot-team-100x100.jpg">
+                                        </div>
+                                        <div class="person-detail">
+                                            <a class="text-dark" href=""><strong>Emily Holt</strong></a><br>
+                                            <div class="d-flex">
+                                                <p class="text-dark m-0">Vice President<strong> | </strong></p>
+                                                <a class="text-dark clr" href=""><strong>BOSTON, MA</strong></a>
+                                            </div>
+                                        </div>
+                                    </div>                           
+                                </div>
+                                <div class="">
+                                    <img class="lazy-load h-100 mx-auto d-none d-lg-block loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/04/elizabeth-full-body-team-100x123.png 100x123,https://www.pancommunications.com/uploads/2020/04/elizabeth-full-body-team-414x509.png 414x509,https://www.pancommunications.com/uploads/2020/04/elizabeth-full-body-team-768x944.png 768x944,https://www.pancommunications.com/uploads/2020/04/elizabeth-full-body-team-960x1180.png 960x1180,https://www.pancommunications.com/uploads/2020/04/elizabeth-full-body-team.png 1204x1480" alt="" data-lazy-set="height" data-lazy-key="34" src="https://www.pancommunications.com/uploads/2020/04/elizabeth-full-body-team-768x944.png" style="width: 553.22px;">
+                                    <div class="person-info px-4 py-3 d-flex bg-white position-absolute">
+                                        <div class="person-image pr-2">
+                                            <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/04/elizabeth-headshot-team-100x100.jpg 100x100,https://www.pancommunications.com/uploads/2020/04/elizabeth-headshot-team-414x414.jpg 414x414,https://www.pancommunications.com/uploads/2020/04/elizabeth-headshot-team.jpg 602x602" alt="" data-lazy-key="36" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/04/elizabeth-headshot-team-100x100.jpg">
+                                        </div>
+                                        <div class="person-detail">
+                                            <a class="text-dark" href=""><strong>Emily Holt</strong></a><br>
+                                            <div class="d-flex">
+                                                <p class="text-dark m-0">Vice President<strong> | </strong></p>
+                                                <a class="text-dark clr" href=""><strong>BOSTON, MA</strong></a>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>  
+                                <div class="">
+                                    <img class="lazy-load h-100 mx-auto d-none d-lg-block loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/Darlene-full-body-team-100x123.png 100x123,https://www.pancommunications.com/uploads/2020/03/Darlene-full-body-team-414x509.png 414x509,https://www.pancommunications.com/uploads/2020/03/Darlene-full-body-team-768x944.png 768x944,https://www.pancommunications.com/uploads/2020/03/Darlene-full-body-team-960x1180.png 960x1180,https://www.pancommunications.com/uploads/2020/03/Darlene-full-body-team.png 1204x1480" alt="" data-lazy-set="height" data-lazy-key="37" src="https://www.pancommunications.com/uploads/2020/03/Darlene-full-body-team-768x944.png" style="width: 553.22px;">       
+                                    <div class="person-info px-4 py-3 d-flex bg-white position-absolute">
+                                        <div class="person-image pr-2">
+                                            <img class="lazy-load headshot loaded" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/darlene-headshot-team-100x100.jpg 100x100,https://www.pancommunications.com/uploads/2020/03/darlene-headshot-team-414x414.jpg 414x414,https://www.pancommunications.com/uploads/2020/03/darlene-headshot-team.jpg 602x602" alt="" data-lazy-key="39" style="height: 50px;" src="https://www.pancommunications.com/uploads/2020/03/darlene-headshot-team-100x100.jpg">
+                                        </div>
+                                        <div class="person-detail">
+                                            <a class="text-dark" href=""><strong>Emily Holt</strong></a><br>
+                                            <div class="d-flex">
+                                                <p class="text-dark m-0">Vice President<strong> | </strong></p>
+                                                <a class="text-dark clr" href=""><strong>BOSTON, MA</strong></a>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="ation"></div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 py-5">
+                        <h6 class="text mb-5">Our Team</h6>
+                        <h3 class="text">
+                            When you partner with PAN, you’ll join a team of talented, <strong>energetic and innovative</strong> people with deep B2B tech and healthcare expertise.
+                        </h3>
+                        <div class="button d-inline-block mt-4">
+                            <a href="" class="d-flex align-items-center">
+                                <div class="svg-dot pr-2">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="10px" y="10px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve"><circle fill="default" stroke="#008c99" stroke-width="1" cx="20" cy="20" r="19.5"></circle></svg>
+                                </div>
+                                <div class="">
+                                    <p class="m-0 text-uppercase text">see our team</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="life-culture" class="position-relative">
+            <img class="background-image position-absolute image-position lazy-load loaded inactive-1" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/Boston.svg x" data-lazy-set="height" alt="" data-group="4" data-target="0" data-lazy-key="90" src="https://www.pancommunications.com/uploads/2020/03/Boston.svg">
+
+            <img class="background-image position-absolute image-position lazy-load loaded inactive-2" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/SanFran.svg x" data-lazy-set="height" alt="" data-group="4" data-target="1" data-lazy-key="91" src="https://www.pancommunications.com/uploads/2020/03/SanFran.svg">
+
+            <img class="background-image position-absolute image-position lazy-load loaded inactive-3" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/new-york.svg x" data-lazy-set="height" alt="" data-group="4" data-target="2" data-lazy-key="92" src="https://www.pancommunications.com/uploads/2020/01/new-york.svg">
+
+            <img class="background-image position-absolute image-position lazy-load loaded inactive-4" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/03/Orlando.svg x" data-lazy-set="height" alt="" data-group="4" data-target="3" data-lazy-key="93" src="https://www.pancommunications.com/uploads/2020/03/Orlando.svg">
+
+            <img class="background-image position-absolute image-position lazy-load loaded inactive-5" data-lazy-srcset="https://www.pancommunications.com/uploads/2020/01/London2.svg x" data-lazy-set="height" alt="" data-group="4" data-target="4" data-lazy-key="94" src="https://www.pancommunications.com/uploads/2020/01/London2.svg">
+        <div class="container-fluid">
+             <div class="row align-items-center d-none d-lg-flex">
+                 <div class="col-lg-5 position-relative">
+                     <div class="absolute-lg-center content-display w-100 lc-active-0 lc-active">                        
+                         <div class="info-wrapper wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>Make a move. We dare you.</h6>
+                             <h3>From concept to customer, no matter the distance.</h3>                            
+                         </div>
+                     </div>
+                     <div class="absolute-lg-center content-display w-100 lc-active-1">                        
+                         <div class="info-wrapper wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>Boston, MA</h6>
+                             <h3>Home to PAN Communications’ headquarters, Boston is perfectly positioned at the crossroads of healthcare disruption and technological innovation. And just like a Beantown revolutionary, we partner with cutting edge companies to go where other companies fear to tread.</h3>
+                         </div>
+                     </div>
+                     <div class="absolute-lg-center content-display w-100 lc-active-2">                        
+                         <div class="info-wrapper wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>San Francisco, CA</h6>
+                             <h3>The City by the Bay has all our favorite things—innovation, creativity and community. And it‘s not a coincidence that some of the world’s top technology companies are located blocks away from our San Francisco office.</h3>
+                         </div>
+                     </div>
+                     <div class="absolute-lg-center content-display w-100 lc-active-3">                        
+                         <div class="info-wrapper wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>New York, NY</h6>
+                             <h3>In NYC, we go big or go home. The birthplace of ambitious X-Tech dreams, NYC has also been home to some of our brightest, most innovative campaigns for companies that aren’t afraid to take big swings.</h3>
+                         </div>
+                     </div>
+                     <div class="absolute-lg-center content-display w-100 lc-active-4">                        
+                         <div class="info-wrapper wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>Orlando, FL</h6>
+                             <h3>PAN is at the forefront of an exciting, burgeoning Orlando tech scene. Down in the Sunshine State, we fuse unrelenting energy and focus to drum up a little magic when tackling clients’ challenges.</h3>
+                         </div>
+                     </div>
+                     <div class="absolute-lg-center content-display w-100 lc-active-5">                        
+                         <div class="info-wrapper wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>London, UK</h6>
+                             <h3>Our London-based team thrives on either side of the pond. PAN UK brings years of international experience to clients looking to amplify their brand to a captive global audience.</h3>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6 offset-md-1">
+                     <div class="button info">
+                         <h2 class="button-style wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-1">Boston, MA</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-2">San Francisco, CA</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-3">New York, NY</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-4">Orlando, FL</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__ animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-5">London, UK</span>
+                             </a>
+                         </h2>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-12 d-none d-md-block d-sm-block d-block d-lg-none">
+                     <div style="margin-bottom:70px;">                        
+                         <div class="info-wrapper wow animate__animated animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <h6>Make a move. We dare you.</h6>
+                             <h3>From concept to customer, no matter the distance.</h3>                            
+                         </div>
+                     </div>
+                     <div class="button info">
+                         <h2 class="button-style wow animate__animated animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-1">Boston, MA</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__animated animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-2">San Francisco, CA</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__animated animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-3">New York, NY</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__animated animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-4">Orlando, FL</span>
+                             </a>
+                         </h2>
+                         <h2 class="button-style wow animate__animated animate__fadeInUp animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUp;">
+                             <a href="">
+                                 <span class="outline-text lc-text-5">London, UK</span>
+                             </a>
+                         </h2>
+                     </div>
+                 </div>
+             </div>
+        </div>     
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-color text text-center wow animate__animated animate__fadeInUp" data-wow-duration="1.2s">
+                         We’re ready to move. <br>
+                         <strong>Are you?</strong>
+                        </h2>
+                        <div class="button d-inline-block pt-5">
+                            <a href="" class="d-flex align-items-center">
+                                <div class="svg-dot pr-2">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="10px" y="10px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve"><circle fill="default" stroke="#008c99" stroke-width="1" cx="20" cy="20" r="19.5"></circle></svg>
+                                </div>
+                                <div class="">
+                                    <p class="m-0 text-uppercase text">CONTACT US</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="footer">
+                <div class="row justify-content-between">
+                    <div class="col-lg-2 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="139" height="63" viewBox="0 0 139 63">
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="#FF4800" d="M62.688 31.512c-3.55 0-6.475 2.878-6.475 6.475 0 3.55 2.878 6.475 6.475 6.475 3.55 0 6.475-2.878 6.475-6.475 0-3.55-2.878-6.475-6.475-6.475z"/>
+                                <path fill="#695E4A" d="M38.035 17.698c0-10.6-7.674-17.602-18.898-17.602H.767v48.107H9.21V35.781h8.97c10.599 0 19.856-6.14 19.856-17.939v-.144zm-8.586.144c0 9.257-7.77 10.264-11.08 10.264H9.258V7.818H19.28c3.79 0 10.168 1.295 10.168 9.88v.144zm33.239-1.295L46.476 48.251h-9.065L62.064.096h1.295l24.654 48.107h-9.065l-16.26-31.656zM138.134.096v48.107h-1.343l-32.279-30.505v30.505h-8.298V.096h1.343l32.28 30.217V.096h8.297z"/>
+                                <g fill="#008C99">
+                                    <path d="M55.254 53.24h1.007v5.995c0 2.158-1.439 3.501-3.55 3.501-2.158 0-3.5-1.247-3.5-3.501v-5.996h1.007v5.948c0 1.87 1.007 2.686 2.494 2.686 1.439 0 2.494-.816 2.494-2.686v-5.948h.048zM71.369 53.24h1.007v9.353h-1.007zM66.237 60.242l-5.851-7.003h-.384v9.353h1.055v-7.098l5.9 7.098h.288V53.24h-1.008zM20.288 57.94c0 2.83-2.206 4.844-4.7 4.844-2.542 0-4.652-2.015-4.652-4.844 0-2.83 2.206-4.845 4.7-4.845 2.542 0 4.652 2.015 4.652 4.845zm-1.103 0c0-2.207-1.487-3.933-3.549-3.933s-3.55 1.726-3.55 3.933c0 2.206 1.488 3.933 3.55 3.933s3.55-1.727 3.55-3.933zM27.963 59.954l-4.221-6.715h-.336v9.353h1.055v-6.475l3.406 5.516h.144l3.453-5.516v6.475h1.007V53.24h-.288zM40.913 59.954l-4.221-6.715h-.336v9.353h1.055v-6.475l3.406 5.516h.144l3.453-5.516v6.475h1.007V53.24h-.288zM5.276 54.055c.911 0 1.966.335 2.782.815l.431-.863c-.719-.48-1.87-.912-3.117-.912-2.83 0-4.988 2.063-4.988 4.845 0 2.83 2.062 4.844 4.988 4.844 1.247 0 2.35-.432 3.117-.911l-.335-.864c-.816.48-1.87.816-2.782.816-2.35 0-3.837-1.68-3.837-3.885-.048-2.207 1.343-3.885 3.741-3.885zM119.908 57.94c0 2.83-2.206 4.844-4.7 4.844-2.542 0-4.605-2.015-4.605-4.844 0-2.83 2.207-4.845 4.7-4.845 2.495 0 4.605 2.015 4.605 4.845zm-1.15 0c0-2.207-1.488-3.933-3.55-3.933-2.063 0-3.55 1.726-3.55 3.933 0 2.206 1.487 3.933 3.55 3.933 2.11 0 3.55-1.727 3.55-3.933zM129.021 60.242l-5.851-7.003h-.384v9.353h1.055v-7.098l5.9 7.098h.287V53.24h-1.007zM80.77 54.055c.911 0 1.967.335 2.782.815l.432-.863c-.768-.48-1.87-.912-3.118-.912-2.83 0-4.988 2.063-4.988 4.845 0 2.83 2.062 4.844 4.988 4.844 1.247 0 2.35-.432 3.118-.911l-.336-.864c-.815.48-1.87.816-2.782.816-2.35 0-3.885-1.68-3.885-3.885 0-2.207 1.391-3.885 3.79-3.885zM91.034 53.24l4.125 9.352h-1.103l-1.103-2.59h-4.22l-1.104 2.59h-1.055l4.125-9.353h.335zm1.535 5.899l-1.727-4.03-1.726 4.03h3.453zM96.214 54.15h3.118v8.442h1.007v-8.441h3.118v-.912h-7.243zM106.431 53.24h1.007v9.353h-1.007zM136.024 57.268c-1.151-.527-1.583-1.055-1.583-1.679 0-.863.576-1.582 1.775-1.582.623 0 1.247.24 1.678.575l.48-.863c-.528-.384-1.295-.624-2.062-.624-1.727 0-2.878 1.2-2.878 2.542 0 1.104.575 1.871 2.206 2.59 1.535.672 1.87 1.152 1.87 1.967 0 .863-.575 1.63-1.774 1.63-.72 0-1.535-.335-2.254-.815l-.48.912c.816.527 1.63.863 2.734.863 1.63 0 2.878-1.151 2.878-2.686-.096-1.295-.672-1.919-2.59-2.83z"/>
+                                </g>
+                                <path fill="#3E3E3E" d="M38.035 17.794c0-10.6-7.674-17.602-18.898-17.602H.767v48.107H9.21V35.924h8.97c10.599 0 19.856-6.187 19.856-17.986v-.144zm-8.586.144c0 9.257-7.77 10.264-11.08 10.264H9.258V7.914H19.28c3.79 0 10.168 1.295 10.168 9.88v.144zm33.239-1.295L46.476 48.347h-9.065L62.064.192h1.295l24.654 48.107h-9.065l-16.26-31.656zM138.134.192v48.107h-1.343l-32.279-30.505V48.3h-8.298V.192h1.343l32.28 30.217V.192h8.297z"/>
+                            </g>
+                        </svg>                        
+                        <div class="social-icon justify-content-between d-flex">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15" height="15" viewBox="0 0 408.788 408.788" style="enable-background:new 0 0 408.788 408.788;" xml:space="preserve">
+                                <path style="fill:default;" d="M353.701,0H55.087C24.665,0,0.002,24.662,0.002,55.085v298.616c0,30.423,24.662,55.085,55.085,55.085  h147.275l0.251-146.078h-37.951c-4.932,0-8.935-3.988-8.954-8.92l-0.182-47.087c-0.019-4.959,3.996-8.989,8.955-8.989h37.882  v-45.498c0-52.8,32.247-81.55,79.348-81.55h38.65c4.945,0,8.955,4.009,8.955,8.955v39.704c0,4.944-4.007,8.952-8.95,8.955  l-23.719,0.011c-25.615,0-30.575,12.172-30.575,30.035v39.389h56.285c5.363,0,9.524,4.683,8.892,10.009l-5.581,47.087  c-0.534,4.506-4.355,7.901-8.892,7.901h-50.453l-0.251,146.078h87.631c30.422,0,55.084-24.662,55.084-55.084V55.085  C408.786,24.662,384.124,0,353.701,0z"></path>
+                            </svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 410.155 410.155" style="enable-background:new 0 0 410.155 410.155;" xml:space="preserve">
+                                <path style="fill:default;" d="M403.632,74.18c-9.113,4.041-18.573,7.229-28.28,9.537c10.696-10.164,18.738-22.877,23.275-37.067  l0,0c1.295-4.051-3.105-7.554-6.763-5.385l0,0c-13.504,8.01-28.05,14.019-43.235,17.862c-0.881,0.223-1.79,0.336-2.702,0.336  c-2.766,0-5.455-1.027-7.57-2.891c-16.156-14.239-36.935-22.081-58.508-22.081c-9.335,0-18.76,1.455-28.014,4.325  c-28.672,8.893-50.795,32.544-57.736,61.724c-2.604,10.945-3.309,21.9-2.097,32.56c0.139,1.225-0.44,2.08-0.797,2.481  c-0.627,0.703-1.516,1.106-2.439,1.106c-0.103,0-0.209-0.005-0.314-0.015c-62.762-5.831-119.358-36.068-159.363-85.14l0,0  c-2.04-2.503-5.952-2.196-7.578,0.593l0,0C13.677,65.565,9.537,80.937,9.537,96.579c0,23.972,9.631,46.563,26.36,63.032  c-7.035-1.668-13.844-4.295-20.169-7.808l0,0c-3.06-1.7-6.825,0.485-6.868,3.985l0,0c-0.438,35.612,20.412,67.3,51.646,81.569  c-0.629,0.015-1.258,0.022-1.888,0.022c-4.951,0-9.964-0.478-14.898-1.421l0,0c-3.446-0.658-6.341,2.611-5.271,5.952l0,0  c10.138,31.651,37.39,54.981,70.002,60.278c-27.066,18.169-58.585,27.753-91.39,27.753l-10.227-0.006  c-3.151,0-5.816,2.054-6.619,5.106c-0.791,3.006,0.666,6.177,3.353,7.74c36.966,21.513,79.131,32.883,121.955,32.883  c37.485,0,72.549-7.439,104.219-22.109c29.033-13.449,54.689-32.674,76.255-57.141c20.09-22.792,35.8-49.103,46.692-78.201  c10.383-27.737,15.871-57.333,15.871-85.589v-1.346c-0.001-4.537,2.051-8.806,5.631-11.712c13.585-11.03,25.415-24.014,35.16-38.591  l0,0C411.924,77.126,407.866,72.302,403.632,74.18L403.632,74.18z"></path>
+                                </svg></a>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;" xml:space="preserve">
+                                    <path style="fill:default;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"></path>
+                                </svg></a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 461.001 461.001" style="enable-background:new 0 0 461.001 461.001;" xml:space="preserve">
+                                <path style="fill:default;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728  c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137  C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607  c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path>
+                            </svg></a>
+                        </div>
+                    </div>
+                    <div class="px-3 d-none d-lg-block">
+                        <ul>
+                            <li><a href=""> <strong>WORK</strong> </a></li>
+                            <li><a href="">Case Studies</a></li>
+                            <li><a href="">Clients</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Technology</a></li>
+                            <li><a href="">Healthcare</a></li>
+                        </ul>
+                    </div>
+                    <div class="px-3 d-none d-lg-block">
+                        <ul>
+                            <li><a href=""> <strong>AGENCY</strong> </a></li>
+                            <li><a href="">Our Approch</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Recognition</a></li>
+                        </ul>
+                    </div>
+                    <div class="px-3 d-none d-lg-block">
+                        <ul>
+                            <li><a href=""> <strong>INSIGTH</strong> </a></li>
+                        </ul>
+                    </div>
+                    <div class="px-3 d-none d-lg-block">
+                        <ul>
+                            <li><a href=""> <strong>LIFE & CULTURE</strong> </a></li>
+                            <li><a href="">Work At Pan</a></li>
+                            <li><a href="">Life At Pan</a></li>
+                            <li><a href="">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="px-3 d-none d-lg-block">
+                        <ul>
+                            <li><a href=""> <strong>LOCATION</strong> </a></li>
+                            <li><a href="">Boston</a></li>
+                            <li><a href="">San Freancisco</a></li>
+                            <li><a href="">New York</a></li>
+                            <li><a href="">Orlando</a></li>
+                            <li><a href="">London</a></li>
+                            <li><a href="">Global</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 text-center text-lg-left">
+                        <ul>
+                            <li><strong>NEWSLETTER</strong></li>
+                            <li><p>Jion Our Weekly Mailing List</p>
+                                <div class="d-flex">
+                                    <input type="text" placeholder="Your email">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17">
+                                            <path fill-rule="nonzero" d="M1.879 0L0 1.879l6.174 6.174L0 14.226l1.879 1.88 8.053-8.053z"></path>
+                                        </svg>
+                                    </button>
+                                </div>                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                        <div class="mr-auto">
+                            <a href="">Privacy policy</a>
+                        </div>
+                        <div class="ml-auto">
+                            <a href="">@2020</a>
+                            <a href="">All rights reserved</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="../js/jquery/jquery.js"></script>
+<script src="../js/bootstrap/bootstrap.min.js"></script>
+<script src="../js/wow/wow.min.js"></script>
+<script src="../js/popup/jquery.magnific-popup.min.js"></script>
+<script src="../js/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/location.js"></script>
+</html>
