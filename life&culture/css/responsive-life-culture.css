@@ -1,0 +1,132 @@
+@media (min-width:768px) and (max-width:991px){
+    h2.text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h3.text{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .navbar{
+        padding: 6px 24px;
+    }
+    .offset {
+        display: none;
+    }
+    #career{
+        padding: 140px 0 70px;
+    }
+    #career .container-fluid{
+        padding:0 70px;
+    }
+    #profile .container-fluid{
+        padding:0 70px;
+    }
+    .box{
+        max-width: calc(100% - 25px);
+        padding: 36px 25px;
+        border: solid 1px #c0c9d3;
+    }
+    .ml-box{
+        margin-left: 0px;
+    }
+    .active {
+        display: block!important;
+        opacity: 1!important;
+        transition: 0.6s ease-in-out;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    h2.text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h3.text{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .offset {
+        display: none;
+    }
+    .navbar{
+        padding: 6px 24px;
+    }
+    #career{
+        padding: 120px 0 60px;
+    }
+    #career .container-fluid{
+        padding:0 30px;
+    }
+    #profile{
+        padding-bottom :70px;
+    }
+    #profile .container-fluid{
+        padding:0 30px;
+    }
+    .box{
+        max-width: calc(100% - 25px);
+        padding: 36px 25px;
+        border: solid 1px #c0c9d3;
+    }
+    .ml-box{
+        margin-left: 0px;
+    }
+    .active {
+        display: block!important;
+        opacity: 1!important;
+        transition: 0.6s ease-in-out;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    footer .container-fluid {
+        padding: 0 30px;
+    }
+}
+@media (max-width:575px){
+    h2.text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h3.text{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .offset {
+        display: none;
+    }
+    .navbar{
+        padding: 6px 24px;
+    }
+    #career{
+        padding: 120px 0 60px;
+    }
+    #career .container-fluid{
+        padding:0 30px;
+    }
+    #profile{
+        padding-bottom :70px;
+    }
+    #profile .container-fluid{
+        padding:0 30px;
+    }
+    .box{
+        max-width: calc(100% - 25px);
+        padding: 36px 25px;
+        border: solid 1px #c0c9d3;
+    }
+    .ml-box{
+        margin-left: 0px;
+    }
+    .active {
+        display: block!important;
+        opacity: 1!important;
+        transition: 0.6s ease-in-out;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    footer .container-fluid {
+        padding: 0 30px;
+    }
+}
