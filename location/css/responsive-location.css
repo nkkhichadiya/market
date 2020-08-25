@@ -1,105 +1,349 @@
-/* .height{
-    height: 100%;
+@media (min-width:768px) and (max-width:991px){
+    .navbar{
+        padding: 6px 24px;
+        background: #fff!important;
+    }
+    .navbar .color-w svg path {
+        fill:rgba(0,0,0,0.7);
+    }
+    .navbar ul li a.color-w {
+        color: rgba(0,0,0,0.7)!important;
+    }
+    #first-page #animate h1.text{
+        width: 225vw;
+    }
+    #life-culture h3.text{
+        color: #ffffff;
+    }
+    #team{
+        padding: 100px 0;
+    }
+    #team .m-container .row .col-12 svg{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        transition: 1s;
+    }
+    svg.rotate{
+        transform: rotate(180deg);
+        transition: 1s;
+    }
+    #team .m-container .row .col-12 svg path{
+        fill: #ffffff;
+    }
+    #panel{
+        display: none;
+    }
+    #team .m-container .row .col-12 #panel svg{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    #team .m-container .row .col-12 #panel svg path{
+        stroke: #ffffff;
+        fill: transparent;
+    }
+    .info{
+        background: #df390f;
+    }
+    #position .container-fluid{
+        padding: 0 100px;
+    }
+    h4.text{
+        color: black!important;
+    }
+    .border-mob{
+        border-top: 1px solid #c0c9d3!important;
+        border-bottom: 1px solid #c0c9d3!important;
+    }
+    #images{
+        padding: 100px 0;
+    }
+    #images .owl-images img {
+        max-height: 30vh!important;
+    }
+    #facts .button svg{
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+        transition: 1s;
+    }
+    #facts .button svg path{
+        fill: #f04c23!important;
+    }
+    #facts-panel{
+        display:none;
+    }
+    .facts-info{
+        background: #f6f8fa;
+    }
+    #our-team{
+        padding: 100px 0 0;
+    }
+    #life-culture{
+        padding: 100px 0;
+    }
+    #contact{
+        padding: 100px 0;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
 }
-h3.text{
-    color: rgba(0,0,0,0.7);
-    font-weight: 700;
-    font-size: calc(30px + (36 - 30) * ((100vw - 1300px)/ (1680 - 1300)));
-    line-height: 1.4;
+
+@media (min-width:576px) and (max-width:767px){
+    h1.text{
+        font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h2.text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    h3.text{
+        font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+    }
+    .navbar{
+        padding: 6px 24px;
+        background: #fff!important;
+    }
+    .navbar .color-w svg path {
+        fill:rgba(0,0,0,0.7);
+    }
+    .navbar ul li a.color-w {
+        color: rgba(0,0,0,0.7)!important;
+    }
+    #life-culture h3.text{
+        color: #ffffff;
+    }
+    #life-culture span.outline-text{
+        font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+    }
+    #reading h1.text{
+        font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+    }
+    #first-page #animate h1.text{
+        width: 300vw;
+    }
+    #team{
+        padding: 100px 0;
+    }
+    #team .m-container .row .col-12 svg{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        transition: 1s;
+    }
+    svg.rotate{
+        transform: rotate(180deg);
+        transition: 1s;
+    }
+    #team .m-container .row .col-12 svg path{
+        fill: #ffffff;
+    }
+    #panel{
+        display: none;
+    }
+    #team .m-container .row .col-12 #panel svg{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    #team .m-container .row .col-12 #panel svg path{
+        stroke: #ffffff;
+        fill: transparent;
+    }
+    .info{
+        background: #df390f;
+    }
+    #position{
+        padding: 100px 0;
+    }
+    #position .container-fluid{
+        padding: 0 20px;
+    }
+    #video{
+        height: 400px!important;
+    }
+    h4.text{
+        color: black!important;
+    }
+    .border-mob{
+        border-top: 1px solid #c0c9d3!important;
+        border-bottom: 1px solid #c0c9d3!important;
+    }
+    #images{
+        padding: 100px 0;
+    }
+    #images .owl-images img {
+        max-height: 20vh!important;
+    }
+    #facts .button svg{
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+        transition: 1s;
+    }
+    #facts .button svg path{
+        fill: #f04c23!important;
+    }
+    #facts-panel{
+        display:none;
+    }
+    .facts-info{
+        background: #f6f8fa;
+    }
+    #our-team{
+        padding: 100px 0 0;
+    }
+    #life-culture{
+        padding: 100px 0;
+    }
+    #life-culture .container-fluid .row {
+        padding: 0 20px;
+        height: 100%;
+    }
+    #contact{
+        padding: 100px 0;
+    }
+    .social-icon {
+        margin: 40px auto 60px;
+        max-width: 138px;
+    }
+    footer .container-fluid {
+        padding: 0 30px;
+    }
 }
-h6.text{
-    color: rgba(0,0,0,0.7);
-    line-height: 1.4;
-    font-weight: 700;
+
+@media (max-width:575px){
+        h1.text{
+            font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+        }
+        h2.text{
+            font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+        }
+        h3.text{
+            font-size: calc(24px + (26 - 24) * ((100vw - 320px)/ (768 - 320)));
+        }
+        #first-page #animate h1.text{
+            font-size: 100px;
+        }
+        .navbar{
+            padding: 6px 24px;
+            background: #fff!important;
+        }
+        .navbar .color-w svg path {
+            fill:rgba(0,0,0,0.7);
+        }
+        .navbar ul li a.color-w {
+            color: rgba(0,0,0,0.7)!important;
+        }
+        #life-culture h3.text{
+            color: #ffffff;
+        }
+        #life-culture span.outline-text{
+            font-size: calc(28px + (38 - 28) * ((100vw - 320px)/ (768 - 320)));
+        }
+        #animate{
+            bottom: -30px!important;
+        }
+        #reading h1.text{
+            font-size: calc(55px + (65 - 55) * ((100vw - 320px)/ (768 - 320)));
+        }
+        #first-page #animate h1.text{
+            width: 300vw;
+        }
+        #tech{
+            padding-bottom:75px;
+        }
+        #reading{
+            padding-bottom: 75px;
+        }
+        #team{
+            padding: 100px 0;
+        }
+        #team .m-container .row .col-12 svg{
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            transition: 1s;
+        }
+        svg.rotate{
+            transform: rotate(180deg);
+            transition: 1s;
+        }
+        #team .m-container .row .col-12 svg path{
+            fill: #ffffff;
+        }
+        #panel{
+            display: none;
+        }
+        #team .m-container .row .col-12 #panel svg{
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+        }
+        #team .m-container .row .col-12 #panel svg path{
+            stroke: #ffffff;
+            fill: transparent;
+        }
+        .info{
+            background: #df390f;
+        }
+        #position{
+            padding: 50px 0;
+        }
+        #position .container-fluid{
+            padding: 0 20px;
+        }
+        #video{
+            height: 400px!important;
+        }
+        h4.text{
+            color: black!important;
+        }
+        .border-mob{
+            border-top: 1px solid #c0c9d3!important;
+            border-bottom: 1px solid #c0c9d3!important;
+        }
+        #images{
+            padding: 50px 0;
+        }
+        #images .owl-images img {
+            max-height: 20vh!important;
+        }
+        #facts .button svg{
+            height: 25px;
+            width: 25px;
+            margin-right: 10px;
+            transition: 1s;
+        }
+        #facts .button svg path{
+            fill: #f04c23!important;
+        }
+        #facts-panel{
+            display:none;
+        }
+        .facts-info{
+            background: #f6f8fa;
+        }
+        #our-team{
+            padding: 50px 0 0;
+        }
+        #life-culture{
+            padding: 50px 0;
+        }
+        #life-culture .container-fluid .row {
+            padding: 0 20px;
+            height: 100%;
+        }
+        #contact{
+            padding: 100px 0;
+        }
+        .social-icon {
+            margin: 40px auto 60px;
+            max-width: 138px;
+        }
+        footer .container-fluid {
+            padding: 0 30px;
+        }
 }
-h5.text{
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.4;
-    color: #000000;
-}
-h5.text-gray{
-     color: #7e8287!important;
-}
-h5.text span{
-    color: #f04c23;
-}
-h4.text{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.5;
-}
-h4.text-gray{
-     color: #7e8287!important;
-}
-h4.text strong{
-    color: #f04c23;
-}
-h4.text span{
-    color: #f04c23;
-}
-h3.text strong{
-    color: #f04c23!important;
-}
-h2.text{
-    line-height: 1.4;
-    color: rgba(0,0,0,0.7);
-    font-size: calc(48px + (65 - 48) * ((100vw - 1300px)/ (1680 - 1300)));
-}
-h2.text strong{
-    color: #f04c23!important;
-}
-p.text{
-    color:#3e3e3e;
-    line-height: 2.14;
-    font-size: 14px;
-    font-weight: 600;
-}
-.svg-dot svg{
-    height: 10px;
-    transition: ease 0.8s;
-    width: 10px;
-}
-.svg-dot svg circle{
-    fill: #ffffff;
-}
-.button a p.text{
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #000000;
-    transition: ease 0.8s;
-    line-height: 2.14;
-}
-.button a:hover p.text{
-    color: #008c99;
-    transition: ease 0.8s;
-    transform: translateX(10px);
-}
-.button a:hover .svg-dot svg {
-    transform: translateY(0) scale(2);
-    transition: ease 0.8s;
-}
-#first-page{
-    margin-top: 100px!important;
-}
-#first-page a.text-hover .col-lg-2 h5.text {
-    transition: 0.5s;
-}
-#first-page a.text-hover:hover .col-lg-2 h5.text {
-    transform:translateX(7px);
-    transition: 0.5s;
-}
-.row-bottom-line{
-    border-bottom: 1px solid #c0c9d3;
-}
-.row-up-line{
-    border-top: 1px solid #c0c9d3;
-}
-#career{
-    padding: 150px 0;
-}
-.offset{
-    height: 60px;
-    width: 100%;
-    display: block;
-} */
