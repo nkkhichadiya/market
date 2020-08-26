@@ -16,6 +16,17 @@ $(function() {
     });
 });
 
+// === navbar hover === //
+
+$(document).ready(function(){
+    $('.navbar ul li #work').hover(function(){
+        $('#hover-menu').slideDown("slow");
+    },function(){
+        $('#hover-menu').mouseleave(function(){
+            $('#hover-menu').slideUp('slow');
+        })
+    })
+})
 
 // ==== work-info ====//
 
